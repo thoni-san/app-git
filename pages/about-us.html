@@ -3,9 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About us</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Sobre nosotros</title>
   </head>
   <body>
-    <h1>Sobre nosotros</h1>
+    <div class="w-screen min-h-screen flex items-center justify-center">
+      <div class="w-1/2 flex flex-col items-center justify-center gap-4">
+        <h1 class="text-3xl font-bold">About us</h1>
+        <h3 class="text-xl font-semibold">Saludos!</h3>
+        <p class="text-center font-light text-sm">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          pariatur veritatis non ad iusto fugit ipsum labore maiores laborum quo
+          quae, impedit repellendus hic laudantium quisquam obcaecati magni cum
+          aliquid!
+        </p>
+        <a
+          href="/index.html"
+          class="bg-teal-400 hover:bg-teal-500 text-gray-700 hover:text-gray-800 text-sm text-semibold px-6 py-2 rounded-xl shadow-md cursor-pointer"
+          >Regresar</a
+        >
+      </div>
+    </div>
   </body>
 </html>
