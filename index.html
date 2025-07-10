@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="bg-white border-gray-150 dark:bg-gray-900">
+        <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
+            <a class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="Imagenes/buildings.svg" class="h-8" alt="NovaSetup Logo" />
+                <span class="center text-2xl font-semibold whitespace-nowrap dark:text-white">NovaSetup</span>
+            </a>
+            <div class="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse">
+            </div>
+            <div id="mega-menu" class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+                <ul class="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse">
+                    <li>
+                    <li>
+                        <a href="http://127.0.0.1:5500/Index.html"
+                            class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                            aria-current="page">DOM</a>
+                    </li>
+                    <li>
+                        <a href="http://127.0.0.1:5500/Pages/Caracteristicas.html"
+                            class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Características</a>
+                    </li>
+                    <li>
+                        <a href="http://127.0.0.1:5500/Pages/Objetivos.html"
+                            class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Objetivos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <h1 style="text-align: center; font-size: 3rem; font-weight: bold;">DOM</h1>
+    <h2 style="text-align: center; font-size: 2rem; font-weight: bold;">Que es DOM ?</h2>
+    <br>
+    <hr>
+    <br>
+    <div class="Tarjeta">
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <img src="Imagenes/dom.jpg" alt="logo" width="600" height="800">
+        </div>
+        <br>
+        <p>DOM es una abreviatura de Document Object Model. En español podríamos traducirlo por Modelo de Objeto de
+            Documento, aunque en DesarrolloWeb.com nos hemos referido al DOM habitualmente con el nombre de jerarquía de
+            objetos del navegador, porque realmente es una estructura jerárquica donde existen varios objetos y unos
+            dependen de otros.
+
+            Los objetos del DOM modelizan tanto la ventana del navegador como el historial, el documento o página web, y
+            todos los elementos que pueda tener dentro la propia página, como párrafos, divisiones, tablas, formularios
+            y sus campos, etc. A través del DOM se puede acceder, por medio de Javascript, a cualquiera de estos
+            elementos, es decir a sus correspondientes objetos para alterar sus propiedades o invocar a sus métodos. Con
+            todo, a través del DOM, queda disponible para los programadores de Javascript, cualquier elemento de la
+            página, para modificarlos, suprimirlos, crear nuevos elementos y colocarlos en la página, etc.
+
+            Lo cierto es que quien quiera que haya realizado un poco de trabajo con Javascript, aunque este haya sido
+            muy básico, ha tocado el DOM alguna vez. Aquí en desarrollo web .com hemos visto multitud de ejemplos en los
+            que se tocaba el DOM. Cuando por ejemplo hacemos una sentencia en la que se accede al valor de un campo de
+            formulario, con un código como este: document.forms[0].elemento_formulario.value, estamos accediendo a la
+            estructura de objetos del DOM.
+
+            El DOM está definido y administrado por el W3C, por lo que los distintos navegadores simplemente aplican las
+            especificaciones del World Wide Web Consortium, para dar soporte al DOM en sus aplicaciones. El DOM no sólo
+            permite modificar páginas web en HTML, sino también documentos XML.
+
+            A lo largo de la historia de los navegadores, se han ido aplicando en mayor o menor manera las
+            características del DOM. A medida que se sucedían versiones de los navegadores también se iba dando un mayor
+            soporte a las especificaciones del DOM, en lo que se han llamado los niveles del DOM. El primero que empezó
+            a disponibilizar por medio de objetos los componentes de la página fue Netscape 2.0, que incorporaba lo que
+            se llama el DOM nivel 0. Actualmente, la última especificación publicada es DOM nivel 4.
+
+            Es importante destacar ahora que, dado que los niveles del DOM cambian de versión a versión del navegador y
+            que las especificaciones se han entendido de manera distinta por las distintas organizaciones creadoras de
+            los navegadores, se ha producido un marco donde trabajar con los objetos de la página difiere de un
+            navegador a otro.</p>
+        <button
+            style="margin-top: 10px; padding: 8px 16px; background-color: cadetblue; color: white; border: none; border-radius: 4px; cursor: pointer;">Leer
+            mas...</button>
+    </div>
+    <br>
+    <h2 style="text-align: center; font-size: 2rem; font-weight: bold;">DOM y Compatibilidad con Navegadores</h2>
+    <div
+        style="margin: 30px auto; max-width: 1000px; padding: 20px; border: 1px solid #ccc; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background-color: #f9f9f9; display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+        <img src="Imagenes/WHATWG_DOM.png" alt="Setup"
+            style="max-width: 250px; height: auto; border-radius: 8px; object-fit: contain;">
+        <div style="flex: 1; min-width: 300px;">
+            <p style="margin: 0; text-align: justify; font-size: 1rem; line-height: 1.6;">
+                Como sabemos los que tenemos una mínima experiencia en la realización de webs, uno de los problemas más
+                importantes que nos encontramos es que los distintos navegadores interpretan de manera distinta el mismo
+                código. Eso ocurre con cualquier lenguaje interpretado en el lado del cliente, como HTML, CSS y
+                Javascript. El problema en cuanto a Javascript es todavía peor, puesto que las diferencias entre
+                navegadores son muy grandes y también entre versiones de un mismo explorador.
+                <br><br>
+                Con todo ello, cuando desarrollamos páginas web con el DOM, nos encontramos con graves dificultades para
+                que un mismo código funcione de igual manera, por lo menos entre los navegadores más comunes.
+                <br><br>
+                Para solucionarlo, en DesarrolloWeb.com hemos visto una serie de técnicas que permiten detectar el
+                navegador del usuario y, según sea este, ejecutar unas u otras sentencias. Lamentablemente, todas estas
+                técnicas no hacen más que complicar el código y el desarrollo de aplicaciones web con programación del
+                lado del cliente.
+                <br><br>
+                Para solucionarlo existen librerías o frameworks de Javascript —los cuales hemos
+                comentado en DesarrolloWeb.com y publicado manuales— que permiten realizar programación sin tener que
+                preocuparnos por las distintas características de los navegadores, a la vez que ofrecen una serie de
+                funciones avanzadas para desarrollo de interfaces de una manera sencilla y rápida.
+            </p>
+
+            <button
+                style="margin-top: 15px; padding: 10px 18px; background-color: cadetblue; color: white; border: none; border-radius: 6px; cursor: pointer;">
+                Leer más...
+            </button>
+        </div>
+    </div>
+
+    </div>
+    <h2 style="text-align: center; font-size: 2rem; font-weight: bold;">Personajes Destacados</h2>
+
+    <div style="display: flex; justify-content: center; gap: 30px; margin: 20px auto; max-width: 1200px;">
+        <!-- Tarjeta 1 -->
+        <div style="width: 300px; text-align: justify;">
+            <img src="Imagenes/4.png" alt="Profesor" width="200" height="400" style="border-radius: 8px;">
+            <h3 style="text-align: center; font-size: 1rem; font-weight: bold;">Estandarización del DOM</h3>
+            <p style="text-align: justify;">La estandarización del DOM (Document Object Model) es un proceso mediante el
+                cual se definen las reglas y estructuras que los navegadores deben seguir para representar, manipular y
+                acceder a los documentos HTML y XML mediante programación. Esta estandarización es crucial para
+                garantizar que los sitios web funcionen correctamente en todos los navegadores, independientemente del
+                sistema operativo o versión utilizada.</p>
+            <button
+                style="margin-top: 10px; padding: 8px 16px; background-color: cadetblue; color: white; border: none; border-radius: 4px; cursor: pointer;">Leer
+                más...</button>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div style="width: 300px; text-align: center;">
+            <img src="Imagenes/2.png" alt="Vaquero" width="380" height="350" style="border-radius: 8px;">
+            <h3 style="text-align: center; font-size: 1rem; font-weight: bold;">¿Quién estandariza el DOM?</h3>
+            <p style="text-align: justify;">El organismo responsable de la estandarización del DOM es el W3C (World Wide
+                Web Consortium), una institución internacional que se encarga de crear y mantener los estándares web.
+                También ha colaborado en este proceso el WHATWG (Web Hypertext Application Technology Working Group),
+                especialmente en las especificaciones modernas relacionadas con HTML5 y el DOM "viviente" (Living
+                Standard).</p>
+            <button
+                style="margin-top: 10px; padding: 8px 16px; background-color: cadetblue; color: white; border: none; border-radius: 4px; cursor: pointer;">Leer
+                más...</button>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div style="width: 300px; text-align: center;">
+            <img src="Imagenes/3.gif" alt="Cowboy" width="280" height="450" style="border-radius: 8px;">
+            <h3 style="text-align: center; font-size: 1rem; font-weight: bold;">Objetivo de la estandarización</h3>
+            <p style="text-align: justify;">El objetivo principal de estandarizar el DOM es garantizar la
+                interoperabilidad entre navegadores. Esto significa que el mismo código JavaScript debe funcionar de la
+                misma manera en Chrome, Firefox, Edge, Safari, Opera, etc., lo que facilita el desarrollo de
+                aplicaciones web multiplataforma sin necesidad de escribir código específico para cada navegador.</p>
+            <button
+                style="margin-top: 10px; padding: 8px 16px; background-color: cadetblue; color: white; border: none; border-radius: 4px; cursor: pointer;">Leer
+                más...</button>
+        </div>
+    </div>
+
+    <footer class="bg-white rounded-lg shadow-sm m-4 dark:bg-gray-800">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a
+                    href="http://127.0.0.1:5500/Index.html" class="hover:underline">DOM</a>. Todos los derechos
+                reservados.
+            </span>
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Acerca de</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Política de privacidad</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Licencias</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
